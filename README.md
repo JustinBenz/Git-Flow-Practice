@@ -53,7 +53,7 @@ This project is designed for one to practice the Git/Github workflow here at Lam
     30. How do I write a comment in CSS? /*Hello World!*/
     31. How do I find out what file I am in, when I am using the command line? dir
     32. Using the command line - how do I see a list of files/folders in my current folder? ls
-    33. How do I remove a file via the command line? Why do I have to be careful with this? rm 
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm it does it instantly, no remorse
     34. Why should I use version control? allows developers to coordinate and collaborate on projects
     35. How often should I commit to github? with every change
     36. What is the command we would use to push our repo up to github? git push -u origin 'branch-name'
@@ -64,5 +64,5 @@ Stretch Questions
     1. What is the difference between an inline element and a block element? inline stays on the same line, block elements have their own space
     2. What happens when an element is positioned absolutely? does not conform to the regular DOM of the page 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? display: inline-block;
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default p, h1 are blocks, img and span
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? i usually work around the issue by giving my divs 'containers' that restrict width with a parent>child relationship, can get quite messy in a complex situation though
